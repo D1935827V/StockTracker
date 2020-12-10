@@ -14,3 +14,4 @@
 
 ### We will track these big-ticket items on the Padlet. This Padlet will be updated as we work on the project to help keep track of our goals and what we have completed. The big-ticket items that will be tracked are: Back Log, Assigned, In Progress, Ready for Deploy (In GitHub), Completed (Running on Pi).   
 
+# Plan for Content and Objectives for Delivery on Fridays, N@TM, MidTerm, and College Board Project.
