@@ -18,3 +18,6 @@
 ### Week 3-Complete dynamic webscraping for stock information that is constantly being updated. Start database for user information and login info. User information includes the stock purchasing/selling and portfolio information as well. The framework for the website will also be setup such as the different pages on the website.
 
 # Completed Aspects of project with dates
+### Here is the link to the padlet with a more in depth traker of the project activity rather than only what is completed. https://padlet.com/bradleybartelt/v44y76kaxvlyg9pd
+
+# College Board AP connections
