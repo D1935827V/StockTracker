@@ -16,3 +16,5 @@
 
 # Plan for Content and Objectives for Delivery on Fridays, N@TM, MidTerm, and College Board Project:
 ### Week 3-Complete dynamic webscraping for stock information that is constantly being updated. Start database for user information and login info. User information includes the stock purchasing/selling and portfolio information as well. The framework for the website will also be setup such as the different pages on the website.
+
+# Completed Aspects of project with dates
