@@ -13,6 +13,13 @@ text = html.decode()
 re.findall('(.*?)',text)
 print(text)
 
-import requests
-url=requests.get('http://example.webscraping.com/ajax/search.json?page=0&page_size=10&search_term=a')
-url.json()
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return render_template("base.html")
+
+if __name__ == "__main__":
+    app.run(debug=True, port='5000', host='127.0.0.1')
