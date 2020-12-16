@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+{% extends "base.html" %}
+{% block title %}Index{% endblock %}
+{% block head %}
+{{ super() }}
+<style type="text/css">
+        .important { color: #336699; }
+    </style>
+{% endblock %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,14 +22,14 @@
 body {
   font-family: Arial;
   padding: 10px;
-  background: #f1f1f1;
+  background: #483D8B;
 }
 
 /* Header/Blog Title */
 .header {
   padding: 30px;
   text-align: center;
-  background: white;
+  background: #A9A9A9;
 }
 
 .header h1 {
@@ -114,16 +122,10 @@ body {
 <body>
 
 <div class="header">
-    <h1>My Website</h1>
-    <p>Resize the browser window to see the effect.</p>
+    <h1 style="color:#483D8B">Stratton Oakmont</h1>
+    <p style="color:#483D8B"> "Dream To Be Rich"</p>
 </div>
 
-<div class="topnav">
-    <a href="#">Link</a>
-    <a href="#">Link</a>
-    <a href="#">Link</a>
-    <a href="#" style="float:right">Link</a>
-</div>
 
 <div class="row">
     <div class="leftcolumn">

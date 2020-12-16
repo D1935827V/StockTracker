@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+<!-- Nathan worked on the Nav bar from the w3 schools website and put it into Jinja so it could be used through out all the project -->
+<html lang="en">
+<head>
+    {% block head %}
+    <link rel="stylesheet" href="style.css" />
+    <title>{% block title %}{% endblock %} - My Webpage</title>
+    {% endblock %}
+</head>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
