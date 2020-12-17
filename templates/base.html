@@ -7,6 +7,9 @@
     <title>{% block title %}{% endblock %} - My Webpage</title>
     {% endblock %}
 </head>
+
+
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -81,3 +84,8 @@
 </nav>
 </body>
 </html>
+
+<body>
+{% include 'layout.html' %}
+{% block content %}{% endblock %}
+</body>
