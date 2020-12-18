@@ -1,3 +1,12 @@
+##from urllib.request import urlopen
+#url = "https://investor.vanguard.com/search/?query=FLR"
+#page = urlopen(url)
+#html_bytes = page.read()
+#html = html_bytes.decode("utf-8")
+#print(html)
+# #483D8B color
+
+
 
 from flask import Flask, render_template
 
