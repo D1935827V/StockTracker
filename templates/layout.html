@@ -17,92 +17,60 @@ body {
   background-image: url('/static/img/background1.jpg');
 }
 
-/* Header/Blog Title */
+/* Middle Text */
 .section {
-  padding: 30px;
-  text-align: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
 }
 
-.section h1 {
+
+.section1 {
   font-size: 100px;
   text-align: center;
+  color: #66FCF1
 }
 
-.section h7 {
+.section2 {
   font-size: 40px;
   text-align: center;
+  color: #66FCF1
 }
 
-/* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
-}
+/* Image Code */
+.floatRight{float:right;margin-left:400px}
 
-/* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+.floatLeft{float:left;margin-right:400px}
 
-/* Change color on hover */
-.topnav a:hover {
-  color: black;
-}
-
-
-/* Fake image */
-.fakeimg {
+.image {
+  height: 100%;
   width: 100%;
-  padding: 20px;
+  align-items: bottom;
+  justify-content: bottom;
 }
 
-/* Add a card effect for articles */
-.card {
-  padding: 20px;
-  margin-top: 20px;
-}
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  margin-top: 20px;
-}
 
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {
-    width: 100%;
-    padding: 0;
-  }
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .topnav a {
-    float: none;
-    width: 100%;
-  }
-}
 </style>
     </head>
 <body>
 
 <div class="section">
-    <h1 style="color:#66FCF1">Stratton Oakmont</h1>
-    <h7 style="color:#66FCF1"> "Dream To Be Rich"</h7>
-</div>
+    <span class="section1">
+            Stratton Oakmont <br/>
+            <span class="section2">
+                "Dream To Be Rich"
+            </span>
 
+
+<div class="image">
+    <link rel="stylesheet" href="style.css" Type="text/css" media="all">
+        <img src="https://i.pinimg.com/originals/61/1a/96/611a965248ed47a2b400f1892cf6c417.png" class="floatRight" width="156.2" height="200">
+        <img src="https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F579180%2Fstock-chart-going-up.jpg&w=700&op=resize" class="floatLeft" width="309 height="200">
+</div>
 
 
